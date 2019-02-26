@@ -1,0 +1,42 @@
+.header{
+    width: 80vw;
+    height: 80px;
+    background-color: $gray;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+        width: 325px;
+        display: -webkit-inline-box;
+
+        text-decoration: none;
+
+        img {
+            width: 50px;
+            margin-top: 10px;
+            margin-left: 45px;
+        }
+        h1 {
+            color: $black;
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+    }
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        li {
+            font-family: $roboto;
+            font-size: 14px;
+            margin: 0 40px;
+            a {
+                color: $black;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

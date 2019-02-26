@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Cinzel");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500");
+* {
+  margin: 0;
+  padding: 0; }
+
+h1 {
+  font-family: "Cinzel", serif;
+  font-size: 13px; }
+
+.header {
+  width: 80vw;
+  height: 80px;
+  background-color: #F5F5F5;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .header .logo {
+    width: 325px;
+    display: -webkit-inline-box;
+    text-decoration: none; }
+    .header .logo img {
+      width: 50px;
+      margin-top: 10px;
+      margin-left: 45px; }
+    .header .logo h1 {
+      color: #333333;
+      margin-top: 20px;
+      margin-left: 30px; }
+  .header ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row; }
+    .header ul li {
+      font-family: "Roboto", sans-serif;
+      font-size: 14px;
+      margin: 0 40px; }
+      .header ul li a {
+        color: #333333;
+        text-transform: uppercase; }
+
+.front-intro {
+  width: 80%;
+  height: 100vh;
+  position: relative;
+  background-color: #F5F5F5; }
+  .front-intro .front-intro-text {
+    margin: 10%; }
+  .front-intro img {
+    height: 80%;
+    position: absolute;
+    top: 10vh; }
+
+.hi {
+  height: 200vh; }
+
+/*# sourceMappingURL=style.css.map */
