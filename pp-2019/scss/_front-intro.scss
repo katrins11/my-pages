@@ -1,20 +1,40 @@
 .front-intro {
-    width: 80%;
+    width: 80vw;
     height: 100vh;
     position: relative;
     background-color: $gray;
+    display: flex;
+    align-items: center;
 
     .front-intro-text {
-        margin: 10%;
+        h2 {
+            font-weight: $font-medium;
+            color: $black;
+            font-size: 36px;
+            span {
+                color: $pink;
+                margin-left: 5px;
+            }
+        }
+        p {
+            font-size: 14px;
+            line-height: 20px;
+        }
+        @media (max-width: $mq-ipad) {
+            margin-left: 50px !important;
+        }
     }
-    
+
     img {
         height: 80%;
         position: absolute;
         top: 10vh;
+        @media (max-width: $mq-ipad){
+            height: 60%;
+            top: 20vh;
+        }
+        @media (max-width: $mq-mobile){
+            display: none;
+        }
     }
-}
-
-.hi {
-    height: 200vh;
 }

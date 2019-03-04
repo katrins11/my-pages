@@ -5,10 +5,10 @@
     </a>
     <ul>
         <li>
-            <a href="/projects">projects</a>
+            <a href="/projects.php">projects</a>
         </li>
         <li>
-            <a href="/CV">cv</a>
+            <a href="http://katrinsig.com/CV/">cv</a>
         </li>
     </ul>
 </div>

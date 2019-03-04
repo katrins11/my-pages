@@ -1,0 +1,44 @@
+.front-contact {
+    h2 {
+        margin-bottom: 20px;
+        @media (max-width: $mq-mobile) {
+            margin-bottom: 10px;
+        }
+    }
+}
+.front-contact-box {
+    width: 80vw;
+    height: 100px;
+    background-color: $gray;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    @media (max-width: $mq-mobile) {
+        width: 100vw;
+    }
+    
+    ul {
+        list-style: none;
+        li {
+            &:before {
+                content: "\2022";
+                color: $pink;
+                font-weight: bold;
+                display: inline-block; 
+                width: 1em;
+                margin-left: -1em;
+            }
+            &:last-child {
+                content: "";   
+            }
+            @media (max-width: $mq-mobile) {
+                font-size: 12px;
+            }
+        }
+        
+    }
+    margin-bottom: 20px;
+}

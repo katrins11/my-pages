@@ -1,12 +1,45 @@
 @import url("https://fonts.googleapis.com/css?family=Cinzel");
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500");
 * {
   margin: 0;
   padding: 0; }
 
+h2, h3, h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase; }
+
 h1 {
   font-family: "Cinzel", serif;
   font-size: 13px; }
+
+.h2 {
+  margin-left: 10%; }
+
+li {
+  font-family: "Roboto", sans-serif; }
+
+a {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #333333; }
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 26px; }
+
+span {
+  color: #E91E63; }
+
+.projects-page {
+  width: 100vw;
+  height: 75vh;
+  background-color: #F5F5F5;
+  position: fixed;
+  opacity: 0; }
 
 .header {
   width: 80vw;
@@ -15,44 +48,262 @@ h1 {
   position: fixed;
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  z-index: 10; }
+  @media (max-width: 760px) {
+    .header {
+      width: 100vw; } }
   .header .logo {
     width: 325px;
     display: -webkit-inline-box;
     text-decoration: none; }
     .header .logo img {
-      width: 50px;
+      width: 40px;
       margin-top: 10px;
       margin-left: 45px; }
+      @media (max-width: 760px) {
+        .header .logo img {
+          margin-left: 25px; } }
     .header .logo h1 {
       color: #333333;
-      margin-top: 20px;
+      margin-top: 14px;
       margin-left: 30px; }
+      @media (max-width: 760px) {
+        .header .logo h1 {
+          display: none; } }
   .header ul {
     list-style-type: none;
     display: flex;
     flex-direction: row; }
     .header ul li {
-      font-family: "Roboto", sans-serif;
       font-size: 14px;
-      margin: 0 40px; }
+      margin: 0px 40px; }
+      @media (max-width: 760px) {
+        .header ul li {
+          margin: 5px 20px; } }
       .header ul li a {
-        color: #333333;
-        text-transform: uppercase; }
+        text-decoration: none; }
+        @media (max-width: 760px) {
+          .header ul li a {
+            font-size: 12px; } }
 
 .front-intro {
-  width: 80%;
+  width: 80vw;
   height: 100vh;
   position: relative;
-  background-color: #F5F5F5; }
-  .front-intro .front-intro-text {
-    margin: 10%; }
+  background-color: #F5F5F5;
+  display: flex;
+  align-items: center; }
+  .front-intro .front-intro-text h2 {
+    font-weight: 500;
+    color: #333333;
+    font-size: 36px; }
+    .front-intro .front-intro-text h2 span {
+      color: #E91E63;
+      margin-left: 5px; }
+  .front-intro .front-intro-text p {
+    font-size: 14px;
+    line-height: 20px; }
+  @media (max-width: 770px) {
+    .front-intro .front-intro-text {
+      margin-left: 50px !important; } }
   .front-intro img {
     height: 80%;
     position: absolute;
     top: 10vh; }
+    @media (max-width: 770px) {
+      .front-intro img {
+        height: 60%;
+        top: 20vh; } }
+    @media (max-width: 760px) {
+      .front-intro img {
+        display: none; } }
 
-.hi {
-  height: 200vh; }
+.about-section {
+  width: 100%;
+  height: 80vh;
+  position: relative; }
+  @media (max-width: 760px) {
+    .about-section {
+      height: 130vh; } }
+  .about-section .about-section-text {
+    width: 40%;
+    position: absolute;
+    top: 30%;
+    left: 10%; }
+    @media (max-width: 770px) {
+      .about-section .about-section-text {
+        width: 34%;
+        top: 25%; } }
+    @media (max-width: 760px) {
+      .about-section .about-section-text {
+        width: 85%;
+        top: 10%; } }
+    .about-section .about-section-text h2 {
+      margin-bottom: 20px; }
+
+/** *** INSTAGRAM *** **/
+#front_about_instagram {
+  width: 40%;
+  height: 400px;
+  position: absolute;
+  right: 50px;
+  bottom: calc(50% - 200px); }
+  @media (max-width: 770px) {
+    #front_about_instagram {
+      right: 100px; } }
+  @media (max-width: 760px) {
+    #front_about_instagram {
+      right: 185px;
+      bottom: 0; } }
+  #front_about_instagram #container {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden; }
+    #front_about_instagram #container span {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      position: absolute; }
+    #front_about_instagram #container ul, #front_about_instagram #container li {
+      padding: 0;
+      margin: 0;
+      list-style: none; }
+    #front_about_instagram #container li {
+      display: none; }
+      #front_about_instagram #container li img {
+        height: 400px;
+        padding: 2px; }
+    #front_about_instagram #container li.active {
+      display: inline; }
+
+/** *** INSTAGRAM DONE *** **/
+.front-words {
+  width: 100vw;
+  height: 100vh;
+  position: relative; }
+  @media (max-width: 770px) {
+    .front-words {
+      height: 80vh; } }
+  @media (max-width: 760px) {
+    .front-words {
+      height: 60vh; } }
+  .front-words .front-words-image {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .front-words .front-words-image img {
+      width: 100%; }
+      @media (max-width: 770px) {
+        .front-words .front-words-image img {
+          width: 90%; } }
+    .front-words .front-words-image .word1 {
+      animation: hideshow 10s ease infinite; }
+    .front-words .front-words-image .word2 {
+      animation: hideshow 10s 1s ease infinite; }
+    .front-words .front-words-image .word3 {
+      animation: hideshow 10s 2s ease infinite; }
+    .front-words .front-words-image .word4 {
+      animation: hideshow 10s 3s ease infinite; }
+    .front-words .front-words-image .word5 {
+      animation: hideshow 10s 4s ease infinite; }
+    .front-words .front-words-image .word6 {
+      animation: hideshow 10s 5s ease infinite; }
+    .front-words .front-words-image .word7 {
+      animation: hideshow 10s 6s ease infinite; }
+    .front-words .front-words-image .word8 {
+      animation: hideshow 10s 7s ease infinite; }
+    .front-words .front-words-image .word9 {
+      animation: hideshow 10s 8s ease infinite; }
+
+@keyframes hideshow {
+  0% {
+    opacity: 1; }
+  25% {
+    opacity: 0.5; }
+  50% {
+    opacity: 0; }
+  75% {
+    opacity: 0.5; }
+  100% {
+    opacity: 1; } }
+.front-contact h2 {
+  margin-bottom: 20px; }
+  @media (max-width: 760px) {
+    .front-contact h2 {
+      margin-bottom: 10px; } }
+
+.front-contact-box {
+  width: 80vw;
+  height: 100px;
+  background-color: #F5F5F5;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px; }
+  @media (max-width: 760px) {
+    .front-contact-box {
+      width: 100vw; } }
+  .front-contact-box ul {
+    list-style: none; }
+    .front-contact-box ul li:before {
+      content: "\2022";
+      color: #E91E63;
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em; }
+    .front-contact-box ul li:last-child {
+      content: ""; }
+    @media (max-width: 760px) {
+      .front-contact-box ul li {
+        font-size: 12px; } }
+
+.each-project {
+  width: calc(100vw - 200px);
+  height: 100vh;
+  opacity: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px; }
+  @media (max-width: 760px) {
+    .each-project {
+      flex-direction: column;
+      width: calc(100vw - 40px);
+      padding: 0 20px;
+      height: 125vh; } }
+  .each-project div {
+    max-width: 500px; }
+    @media (max-width: 760px) {
+      .each-project div {
+        max-width: 300px; } }
+    .each-project div h2 {
+      font-size: 42px;
+      color: #E91E63;
+      margin-bottom: 20px; }
+      @media (max-width: 770px) {
+        .each-project div h2 {
+          font-size: 32px; } }
+      @media (max-width: 760px) {
+        .each-project div h2 {
+          margin-top: 90px; } }
+    .each-project div p {
+      margin-bottom: 20px; }
+  .each-project img {
+    height: 80%; }
+    @media (max-width: 770px) {
+      .each-project img {
+        height: 50%; } }
+    @media (max-width: 760px) {
+      .each-project img {
+        height: 45%;
+        margin-top: 20px; } }
 
 /*# sourceMappingURL=style.css.map */

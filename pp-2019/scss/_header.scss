@@ -1,4 +1,4 @@
-.header{
+.header {
     width: 80vw;
     height: 80px;
     background-color: $gray;
@@ -6,22 +6,31 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 10;
+    @media (max-width: $mq-mobile) {
+        width: 100vw;
+    }
 
     .logo {
         width: 325px;
         display: -webkit-inline-box;
-
         text-decoration: none;
 
         img {
-            width: 50px;
+            width: 40px;
             margin-top: 10px;
             margin-left: 45px;
+            @media (max-width: $mq-mobile) {
+                margin-left: 25px;
+            }
         }
         h1 {
             color: $black;
-            margin-top: 20px;
+            margin-top: 14px;
             margin-left: 30px;
+            @media (max-width: $mq-mobile) {
+                display: none;
+            }
         }
     }
 
@@ -29,13 +38,19 @@
         list-style-type: none;
         display: flex;
         flex-direction: row;
+
         li {
-            font-family: $roboto;
             font-size: 14px;
-            margin: 0 40px;
+            margin: 0px 40px;
+            
+            @media (max-width: $mq-mobile) {
+                margin: 5px 20px;
+            }
             a {
-                color: $black;
-                text-transform: uppercase;
+                text-decoration: none;
+                @media (max-width: $mq-mobile) {
+                    font-size: 12px;
+                }
             }
         }
     }

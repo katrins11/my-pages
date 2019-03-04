@@ -1,8 +1,8 @@
 <div class="front-intro">
     <div class="front-intro-text">
         <h2>
-            About<span>.</span>
-            Portfolio<span>.</span>
+            About<span>.</span><br>
+            Portfolio<span>.</span><br>
             Web Development<span>.</span>
         </h2>
         <p>Here you can find all relevant information about me and my work.<br> 
@@ -10,11 +10,3 @@
     </div>
     <img id="front-intro-img" src="./assets/front-kds.png" alt="">
 </div>
-
-<script>
-    var imageWidth = document.querySelector('#front-intro-img');
-    var imageHalf = imageWidth.clientWidth/2;
-    var imageWidth = document.querySelector('#front-intro-img');
-    imageWidth.style.right = (screen.width*.2-imageHalf)+'px';
-    
-</script>
