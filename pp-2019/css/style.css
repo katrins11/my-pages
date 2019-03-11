@@ -24,12 +24,19 @@ a {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   text-decoration: none;
-  color: #333333; }
+  color: #333333;
+  transition: all .8s ease-out; }
+  a:hover {
+    color: #E91E63;
+    transition: all .8s ease-in; }
 
 p {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   line-height: 26px; }
+  p span {
+    font-size: 20px;
+    font-weight: 500; }
 
 span {
   color: #E91E63; }
@@ -39,11 +46,11 @@ span {
   height: 75vh;
   background-color: #F5F5F5;
   position: fixed;
-  opacity: 0; }
+  z-index: -1; }
 
 .header {
   width: 80vw;
-  height: 80px;
+  height: 60px;
   background-color: #F5F5F5;
   position: fixed;
   display: flex;
@@ -58,7 +65,7 @@ span {
     display: -webkit-inline-box;
     text-decoration: none; }
     .header .logo img {
-      width: 40px;
+      width: 30px;
       margin-top: 10px;
       margin-left: 45px; }
       @media (max-width: 760px) {
@@ -66,8 +73,8 @@ span {
           margin-left: 25px; } }
     .header .logo h1 {
       color: #333333;
-      margin-top: 14px;
-      margin-left: 30px; }
+      margin-top: 12px;
+      margin-left: 20px; }
       @media (max-width: 760px) {
         .header .logo h1 {
           display: none; } }
@@ -251,34 +258,36 @@ span {
       width: 100vw; } }
   .front-contact-box ul {
     list-style: none; }
-    .front-contact-box ul li:before {
-      content: "\2022";
-      color: #E91E63;
-      font-weight: bold;
-      display: inline-block;
-      width: 1em;
-      margin-left: -1em; }
-    .front-contact-box ul li:last-child {
-      content: ""; }
-    @media (max-width: 760px) {
-      .front-contact-box ul li {
-        font-size: 12px; } }
+    .front-contact-box ul li {
+      font-weight: 300; }
+      .front-contact-box ul li:before {
+        content: "\2022";
+        color: #E91E63;
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em; }
+      .front-contact-box ul li:last-child {
+        content: ""; }
+      @media (max-width: 760px) {
+        .front-contact-box ul li {
+          font-size: 12px; } }
 
 .each-project {
   width: calc(100vw - 200px);
   height: 100vh;
-  opacity: 1;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0 100px; }
+  padding: 0 100px;
+  z-index: 9; }
   @media (max-width: 760px) {
     .each-project {
       flex-direction: column;
       width: calc(100vw - 40px);
       padding: 0 20px;
-      height: 125vh; } }
+      height: auto; } }
   .each-project div {
     max-width: 500px; }
     @media (max-width: 760px) {
@@ -303,7 +312,8 @@ span {
         height: 50%; } }
     @media (max-width: 760px) {
       .each-project img {
-        height: 45%;
+        width: 80%;
+        height: auto;
         margin-top: 20px; } }
 
 /*# sourceMappingURL=style.css.map */

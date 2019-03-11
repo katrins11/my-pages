@@ -43,11 +43,20 @@ a {
     text-transform: uppercase;
     text-decoration: none;
     color: $black;
+    transition: all .8s ease-out;
+    &:hover {
+        color: $pink;
+        transition: all .8s ease-in;
+    }
 }
 p {
     font-family: $roboto;
     font-weight: $font-light;
     line-height: 26px;
+    span {
+        font-size: 20px;
+        font-weight: $font-medium;
+    }
 }
 span {
     color: $pink;
@@ -58,5 +67,5 @@ span {
     height: 75vh;
     background-color: $gray;
     position: fixed;
-    opacity: 0;
+    z-index: -1;
 }

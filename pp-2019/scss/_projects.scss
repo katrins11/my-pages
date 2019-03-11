@@ -1,18 +1,18 @@
 .each-project {
     width: calc(100vw - 200px);
     height: 100vh;
-    opacity: 1;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 0 100px;
+    z-index: 9;
     
     @media (max-width: $mq-mobile) {
         flex-direction: column;
         width: calc(100vw - 40px);
         padding: 0 20px;
-        height: 125vh;
+        height: auto;
     }
 
     div {
@@ -42,7 +42,8 @@
             height: 50%;
         }
         @media (max-width: $mq-mobile) {
-            height: 45%;
+            width: 80%;
+            height: auto;
             margin-top: 20px;
         }
     }

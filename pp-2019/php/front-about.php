@@ -7,7 +7,9 @@
     <div id="front_about_instagram">
         <div id="container">
             <ul>
-                <li class="active"><img src="./assets/img-slider/i95.jpg" alt="" /></li>
+                <li class="active"><img src="./assets/img-slider/i97.jpg" alt="" /></li>
+                <li><img src="./assets/img-slider/i97.jpg" alt="" /></li>
+                <li><img src="./assets/img-slider/i96.jpg" alt="" /></li>
                 <li><img src="./assets/img-slider/i95.jpg" alt="" /></li>
                 <li><img src="./assets/img-slider/i94.jpg" alt="" /></li>
                 <li><img src="./assets/img-slider/i93.jpg" alt="" /></li>

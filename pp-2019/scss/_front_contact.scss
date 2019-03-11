@@ -23,6 +23,7 @@
     ul {
         list-style: none;
         li {
+            font-weight: $font-light;
             &:before {
                 content: "\2022";
                 color: $pink;
