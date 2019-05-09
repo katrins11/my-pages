@@ -6,7 +6,7 @@ $(document).ready(function(){
     if(bodyWidth <= 420) {
       width = 300;
     }
-    console.log("bodyWidth: ", bodyWidth);
+    //console.log("bodyWidth: ", bodyWidth);
     var numberOfBlinds = 12;
     var margin = 1;
     var colorBlack = '#222222';
@@ -75,5 +75,5 @@ $(document).ready(function(){
         borderTopWidth: borders.borderWidthTop,
         borderBottomWidth: borders.borderWidthBottom
       }, 1000);
-    });
-  }
+  });
+}

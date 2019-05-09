@@ -1,6 +1,6 @@
 <div class="front-words">
     <h2 class="h2">My skills<span>.</span></h2>
-    <div class="front-words-image">
+    <div class="front-words-image section-watch">
         <svg width="817px" height="499px" viewBox="0 0 817 499" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g id="KDS-Copy" transform="translate(-318.000000, -200.000000)">

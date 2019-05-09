@@ -1,4 +1,4 @@
-<div class="front-contact">
+<div class="front-contact section-watch">
     <h2 class="h2">Contact Me<span>.</span></h2>
     <div class="front-contact-box">
         <ul>

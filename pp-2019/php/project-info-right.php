@@ -1,5 +1,5 @@
 <?php include('content.php')?>
-<div class="each-project">
+<div class="each-project section-watch">
     <img src="<?php echo $projectImg; ?>" alt="">
     <div>
         <h2><?php echo $projectTitle; ?></h2>

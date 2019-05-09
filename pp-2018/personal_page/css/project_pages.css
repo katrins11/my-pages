@@ -1,0 +1,451 @@
+#finnduleid_page, #tech_tornato_page, #hr_monitor_page, #whereis_page, #sundlaugar_page{
+  display: none;
+}
+/* * * * * * * * * * * * * * * FINNDU LEIÐ * * * * * * * * * * * * * * */
+.logoBack{
+  position: relative;
+  width: 50px;
+  float: left !important;
+  z-index: 99;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 0px !important;
+  clear: left;
+}
+
+.toBack{
+  position: absolute;
+  bottom: -60px;
+  right: 50px;
+  border-radius: 50%;
+  color: #222;
+  padding-top: 2px;
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+}
+.toBack:hover{
+  font-size: 19px;
+}
+
+.subPage_firstSection{
+  width: 100vw;
+  height: 90vh;
+  display: inline-flex;
+}
+.subPage_firstSection_info{
+  width: 50%;
+  position: relative;
+}
+.subPage_firstSection_info h1{
+  text-align: center;
+}
+.subPage_firstSection_info_p{
+  padding: 20px 10%;
+  line-height: 30px;
+}
+.subPage_firstSection_info a{
+  float: right;
+  margin-right: 86px;
+}
+.subPage_lists{
+  position: relative;
+  width: 100%;
+  margin-top: 55px;
+}
+.subPage_leftList{
+  position: absolute;
+  left: 0;
+}
+.subPage_leftList .status_left_black {
+  margin-top: 50px;
+}
+.subPage_rightList .status_right_black {
+  margin-top: 100px;
+}
+.subPage_rightList .status_right_line {
+  width: 180px;
+}
+.subPage_leftList ul{
+  margin-top: 20px;
+  margin-left: 110px;
+}
+.subPage_rightList ul{
+  margin-left: 15px;
+  margin-top: 135px;
+}
+.subPage_rightList{
+  position: absolute;
+  right: 0;
+}
+.subPage_firstSection_info span{
+  font-size: 144px;
+  color: #E91E63;
+  position: absolute;
+  bottom: 25px;
+  z-index: -1;
+}
+.subPage_firstSection img{
+  width: 50%;
+  z-index: 9999;
+}
+
+/*Black*/
+.subPage_sectionTwo, .subPage_sectionThree{
+  width: 100vw;
+  height: 800px;
+  position: relative;
+}
+.subPage_blackSection{
+  width: 100vw;
+  height: 800px;
+  border-style: solid;
+  border-width: 111px 0 0 100vw;
+  border-color: transparent transparent transparent #222;
+  margin-top: -111px;
+  overflow: hidden;
+}
+
+
+.subPage_sectionTwo img{
+  width: 45%;
+  position: absolute;
+  bottom: -75px;
+}
+.subPage_sectionThree img{
+  width: 45%;
+  position: absolute;
+  right: 0;
+  top: 160px;
+}
+.subPage_sectionTwo_info{
+  width: 50%;
+  float: right;
+  position: absolute;
+  top: 30%;
+  right: 0;
+}
+.subPage_sectionThree_info{
+  width: 50%;
+  position: absolute;
+  top: 10%;
+  left: 0;
+}
+.subPage_sectionTwo_info .status_right_white{
+  width: 725px;
+  margin-top: 0px;
+}
+.subPage_sectionTwo_info .status_right_line{
+  width: 455px;
+}
+.subPage_sectionTwo_info_text{
+  color: white;
+  position: absolute;
+  width: 60%;
+  margin-top: 80px;
+  margin-left: 18%;
+  font-weight: 200;
+}
+.subPage_sectionThree_info_text{
+  position: absolute;
+  width: 60%;
+  margin-top: 80px;
+  margin-left: 18%;
+  font-weight: 200;
+}
+.subPage_sectionTwo span{
+  font-size: 144px;
+  color: #E91E63;
+  position: absolute;
+  bottom: -60px;
+  right: -20px;
+}
+
+
+@media screen and (max-width: 1280px){
+  #finnduleid_page .subPage_firstSection_info_p {
+    padding: 20px 10% 0 10%;
+  }
+  #finnduleid_page .subPage_leftList .status_left_black {
+    margin-top: 0px;
+  }
+  #finnduleid_page .subPage_leftList ul {
+    margin-top: 10px;
+    margin-left: 135px;
+  }
+  .subPage_leftList .status_left_line {
+    width: 175px;
+  }
+
+  .subPage_rightList .status_right_black {
+    margin-top: 50px;
+  }
+  .subPage_rightList ul {
+    margin-top: 85px;
+  }
+}
+@media screen and (max-width: 770px){
+  .subPage_leftList .status_left_black {
+    margin-top: 0;
+  }
+  .subPage_leftList .status_left_black {
+    width: 190px;
+  }
+  .subPage_leftList .status_left_line {
+    width: 85px;
+  }
+  .subPage_leftList ul {
+    margin-top: 5px;
+    margin-left: 65px;
+  }
+  .subPage_rightList .status_right_black {
+    width: 235px;
+  }
+  .subPage_rightList .status_right_line {
+    width: 90px;
+  }
+}
+@media screen and (max-width: 600px){
+  #finnduleid_page .toBack {
+    bottom: 30px;
+  }
+  .subPage_firstSection_info {
+    width: 100%;
+  }
+  .subPage_firstSection_info h1{
+    margin-bottom: 5px;
+  }
+  .subPage_firstSection_info_p {
+    padding: 0px 10% 0 10%;
+    line-height: 24px;
+  }
+  .subPage_firstSection img {
+    display: none;
+  }
+  .subPage_blackSection {
+    margin-top: -40px;
+  }
+  .subPage_firstSection_info span {
+    bottom: -85px;
+  }
+
+
+
+
+  .subPage_sectionTwo, .subPage_blackSection{
+    height: 645px;
+  }
+  .subPage_sectionTwo_info {
+    width: 90%;
+    top: 20%;
+  }
+  .subPage_sectionTwo_info .status_right_white {
+    width: 415px;
+  }
+  .subPage_sectionTwo_info .status_right_line {
+    width: 150px;
+  }
+  .subPage_sectionTwo_info_text {
+    width: 90%;
+    margin-top: 80px;
+    margin-left: 5%;
+  }
+  .subPage_sectionTwo img {
+    width: 80%;
+    bottom: 0px;
+  }
+
+
+
+
+  .subPage_sectionThree {
+    height: 600px;
+  }
+  .subPage_sectionThree_info {
+    width: 90%;
+  }
+
+  .subPage_sectionThree_info_text {
+    width: 80%;
+    margin-top: 40px;
+    margin-left: 10%;
+  }
+  .subPage_sectionThree_info .status_left_black {
+    margin-top: 60px;
+  }
+  .subPage_sectionThree img {
+    width: 80%;
+    top: 300px;
+  }
+
+
+
+
+  .subPage_section_bigBannerImg {
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .subPage_firstSection_info h1 {
+    margin-top: 5px;
+  }
+  .subPage_firstSection_info_p {
+    padding: 5px 10% 0 10%;
+  }
+  .subPage_blackSection {
+    margin-top: 0px;
+  }
+  .subPage_firstSection_info span {
+    bottom: -135px;
+  }
+
+
+
+  .subPage_sectionTwo_info .status_right_white {
+    width: 375px;
+  }
+  .subPage_sectionTwo_info .status_right_line {
+    width: 110px;
+  }
+}
+
+
+
+
+
+
+/*BANNER IMG*/
+.subPage_section_bigBannerImg{
+  position: relative;
+  width: 100vw;
+  height: auto;
+  margin-top: 100px;
+}
+.subPage_section_bigBannerImg img{
+  width: 100%;
+  margin-bottom: 50px;
+}
+#finnduleid_page .toBack, #tech_tornato_page .toBack{
+  bottom: 13px;
+}
+/* * * * * * * * * * * * * * * FINNDU LEIÐ DONE * * * * * * * * * * * * * * */
+
+/* * * * * * * * * * * * * * * TECH TORNATO * * * * * * * * * * * * * * */
+#tech_tornato_page .subPage_sectionTwo_info .status_right_white {
+    width: 560px;
+}
+#tech_tornato_page .subPage_sectionTwo_info .status_right_line {
+    width: 400px;
+}
+#tech_tornato_page .subPage_sectionTwo_info_text {
+    margin-left: 23%;
+}
+#tech_tornato_page .subPage_sectionTwo img {
+  width: 55%;
+  position: absolute;
+  bottom: -75px;
+}
+
+
+#tech_tornato_page .subPage_sectionTwo {
+  height: 700px;
+}
+#tech_tornato_page .subPage_blackSection {
+  height: 701px;
+}
+
+
+#tech_tornato_page .subPage_sectionThree_info .status_left_black {
+  margin-top: 95px;
+}
+#tech_tornato_page .subPage_sectionThree_info .status_left_black {
+  width: 355px;
+}
+#tech_tornato_page .subPage_sectionThree_info_text {
+  width: 66%;
+  margin-top: 50px;
+  margin-left: 15%;
+}
+
+
+@media screen and (max-width: 960px){
+  #tech_tornato_page .subPage_leftList .status_left_black{
+    width: 200px;
+  }
+  #tech_tornato_page .subPage_leftList ul {
+    margin-left: 70px;
+  }
+  #tech_tornato_page .status_right_black {
+    width: 220px;
+  }
+}
+@media screen and (max-width: 450px){
+  #tech_tornato_page .status_right_black {
+    width: 185px;
+  }
+  #tech_tornato_page .subPage_sectionTwo_info .status_right_white {
+    width: 290px;
+  }
+  #tech_tornato_page .subPage_sectionTwo_info_text {
+    margin-left: 10%;
+    width: 80%;
+  }
+  #tech_tornato_page .subPage_sectionTwo img {
+    width: 80%;
+    bottom: 60px;
+  }
+
+  #tech_tornato_page .subPage_sectionThree_info_text {
+    width: 85%;
+    margin-left: 10%;
+  }
+
+  #tech_tornato_page .subPage_sectionThree img {
+    top: 600px;
+  }
+  #tech_tornato_page .subPage_sectionThree_info .status_left_black {
+    margin-top: 25px;
+  }
+
+}
+/* * * * * * * * * * * * * * * TECH TORNATO DONE * * * * * * * * * * * * * * */
+
+#hr_monitor_page .status_left_black {
+  width: 350px;
+}
+#hr_monitor_page .status_left_line {
+  width: 245px;
+}
+#hr_monitor_page .subPage_leftList ul {
+    margin-left: 200px;
+}
+#hr_monitor_page .subPage_sectionTwo_info .status_right_white {
+  width: 650px;
+}
+@media screen and (max-width: 770px){
+  #hr_monitor_page .status_left_black {
+    width: 270px;
+  }
+  #hr_monitor_page .status_left_line {
+    width: 170px;
+  }
+  #hr_monitor_page .subPage_leftList ul {
+    margin-left: 150px;
+  }
+}
+
+
+#whereis_page .subPage_sectionTwo_info .status_right_white {
+  width: 580px;
+}
+#whereis_page .subPage_sectionTwo_info_text {
+  margin-left: 23%;
+}
+
+#sundlaugar_page .subPage_sectionTwo_info .status_right_white {
+  width: 650px;
+}

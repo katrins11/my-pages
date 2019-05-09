@@ -1,4 +1,4 @@
-<div class="about-section">
+<div class="about-section section-watch">
     <div class="about-section-text">
         <h2>Little about me<span>.</span></h2>
         <p>I’m a b.a. graduate in Web Development, which consists of 2 years diploma education from Reykjavik Academy of Web Development, and 1,5 year top up education from KEA (Københavns Erhvervsakademi). From that I have learned how to design and program websites, focusing on program interface and user experience.

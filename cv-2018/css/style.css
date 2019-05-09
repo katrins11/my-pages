@@ -1,0 +1,1332 @@
+/*-------- fonts --------*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Poppins:300,400,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script:400,700");
+/*========== color variables ==========*/
+/*====================================================*/
+/*====================================================*/
+.p0 {
+  padding: 0px;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+.row.m0 {
+  margin: 0px;
+}
+
+body, p, h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font: 400 15px/30px "Poppins", sans-serif;
+  letter-spacing: 0px;
+  color: #777777;
+}
+
+a, .btn, button {
+  text-decoration: none;
+  outline: none;
+}
+a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
+  outline: none;
+  box-shadow: none;
+}
+
+section, footer {
+  overflow: hidden;
+}
+section.row, footer.row {
+  margin: 0;
+}
+
+section.active {
+  height: 100% !important;
+  max-height: 100%;
+  overflow-y: scroll;
+}
+
+.sec-pad {
+  padding-top: 111px;
+  padding-bottom: 114px;
+}
+
+.sec-title {
+  text-align: right;
+  padding-right: 39px;
+}
+.sec-title h2 {
+  font: 500 23px "Poppins", sans-serif;
+  letter-spacing: 2.3px;
+  text-transform: uppercase;
+  color: #666666;
+  position: relative;
+  padding-top: 24px;
+  line-height: 30px;
+  padding-bottom: 5px;
+}
+.sec-title h2:before {
+  content: "";
+  width: 50px;
+  height: 5px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #E91E63;
+}
+.sec-title h6 {
+  font: 400 17px "Open Sans", sans-serif;
+  font-style: italic;
+  color: #999;
+}
+@media (min-width: 1200px) {
+  .sec-title h6 {
+    margin-left: -300px;
+  }
+}
+
+.sec-title2 {
+  padding-bottom: 49px;
+}
+.sec-title2 h2 {
+  font: 500 25px "Poppins", sans-serif;
+  color: #454646;
+  letter-spacing: 1px;
+  position: relative;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+}
+.sec-title2 h2:before {
+  content: '';
+  width: 60px;
+  height: 2px;
+  background: #E91E63;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.sec-title2 h6 {
+  font: 400 17px "Open Sans", sans-serif;
+  font-style: italic;
+  color: #999;
+  padding-top: 15px;
+}
+
+.title {
+  font: 500 16px "Poppins", sans-serif;
+  color: #555;
+  text-transform: uppercase;
+  transition: all 0.4s linear;
+  cursor: pointer;
+}
+.title:hover {
+  color: #E91E63;
+}
+
+.section-title {
+  max-width: 610px;
+  margin: 0 auto 60px;
+  text-align: center;
+}
+.section-title h2 {
+  font: 600 30px/45px "Poppins", sans-serif;
+  color: #191b1d;
+  letter-spacing: 0.40px;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 17px;
+}
+.section-title h2:before {
+  content: "";
+  width: 60px;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #E91E63;
+}
+.section-title p {
+  font: 400 15px/28px "Poppins", sans-serif;
+  color: #706b6b;
+  padding-top: 22px;
+}
+
+.sec-title.dk h2 {
+  color: #999;
+}
+.sec-title.dk h6 {
+  color: #666;
+}
+
+.sec-title3 {
+  margin-bottom: 63px;
+  text-align: center;
+}
+.sec-title3 h2 {
+  font: 500 24px "Poppins", sans-serif;
+  color: #666666;
+  letter-spacing: 2.3px;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 12px;
+  margin-bottom: 15px;
+  z-index: 1;
+}
+.sec-title3 h2:before {
+  content: "";
+  width: 60px;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #E91E63;
+}
+.sec-title3 h2:after {
+  content: attr(data-line);
+  width: 100%;
+  font-size: 330px;
+  top: -7px;
+  color: rgba(102, 102, 102, 0.025);
+  font-weight: 700;
+  position: absolute;
+  left: 0px;
+  font-family: "Poppins", sans-serif;
+  line-height: 0px;
+  z-index: -1;
+}
+.sec-title3 p {
+  font: 400 18px "Open Sans", sans-serif;
+  color: #999999;
+}
+.sec-title3.sec-left {
+  text-align: left;
+}
+.sec-title3.sec-left h2:before {
+  left: 0;
+  transform: translateX(0);
+}
+.sec-title3.sec-left h2:after {
+  left: -11px;
+}
+.sec-title3.sec-right {
+  text-align: right;
+}
+.sec-title3.sec-right h2:before {
+  right: 0;
+  transform: translateX(0);
+  left: auto;
+}
+.sec-title3.sec-right h2:after {
+  left: auto;
+  right: -20px;
+}
+.sec-title3.sec-right p {
+  color: #999999;
+}
+.sec-title3.sec-right.white-color h2 {
+  color: #fff;
+}
+.sec-title3.sec-right.white-color h2:before {
+  background: #fff;
+}
+.sec-title3.sec-right.white-color h2:after {
+  color: rgba(255, 255, 255, 0.05);
+}
+.sec-title3.sec-right.white-color p {
+  color: #fff;
+}
+
+.bg-c {
+  background: #fdfdfd;
+}
+
+.sec-title3.dk-color h2 {
+  color: #999;
+}
+.sec-title3.dk-color h2:after {
+  color: rgba(102, 102, 102, 0.07);
+}
+.sec-title3.dk-color p {
+  color: #666;
+}
+
+/*====================================================*/
+/*====================================================*/
+/*=========== pre-loader css =============*/
+.loader-container {
+  position: fixed;
+  float: left;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  background: #2d2e2e;
+  z-index: 999999;
+}
+
+.loader-container .loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+}
+
+#mask {
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  margin: 0 auto;
+  text-align: center;
+}
+#mask svg {
+  width: 64px;
+  height: 76px;
+}
+#mask svg .preloader-path {
+  stroke-linejoin: round;
+  fill: none;
+  stroke: #E91E63;
+  stroke-width: 1;
+  stroke-dasharray: 70 32;
+  -webkit-animation: preloader 1s infinite ease;
+  animation: preloader 1s infinite ease;
+}
+
+@-webkit-keyframes preloader {
+  from {
+    stroke-width: 0;
+    stroke-dashoffset: 0;
+  }
+
+  to {
+    stroke-width: 1;
+    stroke-dashoffset: 102px;
+  }
+}
+@keyframes preloader {
+  from {
+    stroke-width: 0;
+    stroke-dashoffset: 0;
+  }
+
+  to {
+    stroke-width: 1;
+    stroke-dashoffset: 102px;
+  }
+}
+/*============ Start header area css ===============*/
+@media (min-width: 768px) {
+  .navbar-toggle {
+    display: block;
+  }
+
+  .navbar-header {
+    float: none;
+  }
+
+  .header-logo {
+    float: left;
+  }
+}
+.navbar {
+  margin: 0px;
+  box-shadow: none;
+  border: 0px;
+  background: transparent;
+  border-radius: 0px;
+  padding: 0px 25px;
+  transition: all 0.2s ease;
+  z-index: 99;
+}
+
+.navbar-header .navbar-toggle {
+  position: relative;
+  z-index: 0;
+  margin-top: 0px;
+  margin-right: 0px;
+  transition: all 0.25s ease;
+  padding: 29px 0px;
+  border: 0px;
+  margin-bottom: 0px;
+  z-index: 2;
+}
+.navbar-header .navbar-toggle .icon-bar {
+  background-color: #999999;
+  width: 35px;
+  transition: all 0.25s ease;
+}
+.navbar-header .navbar-toggle .icon-bar + .icon-bar {
+  margin-top: 8px;
+}
+.navbar-header .navbar-toggle .icon-bar:nth-child(1) {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+.navbar-header .navbar-toggle .icon-bar:nth-child(2) {
+  opacity: 0;
+}
+.navbar-header .navbar-toggle .icon-bar:nth-child(3) {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+.navbar-header .navbar-toggle.collapsed .icon-bar:nth-child(1) {
+  transform: none;
+}
+.navbar-header .navbar-toggle.collapsed .icon-bar:nth-child(2) {
+  opacity: 1;
+}
+.navbar-header .navbar-toggle.collapsed .icon-bar:nth-child(3) {
+  transform: none;
+}
+.navbar-header .navbar-toggle:hover, .navbar-header .navbar-toggle:focus {
+  background: transparent;
+}
+.navbar-header .navbar-brand {
+  height: auto;
+  line-height: 80px;
+  display: block;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  transition: all 0.25s ease;
+}
+.navbar-header .navbar-brand img {
+  display: inline-block;
+  width: 60px;
+}
+
+.navbar-collapse {
+  float: right;
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fafbfb;
+  max-height: none !important;
+  height: auto !important;
+  overflow-x: hidden;
+  transform: translateX(100%);
+  transition: all 0.35s ease;
+}
+.navbar-collapse .menu {
+  transition: padding-top 0.25s ease;
+  margin-top: 0;
+  margin-bottom: 0;
+  overflow-y: scroll;
+  height: 100%;
+  padding-top: 50px;
+  width: 321px;
+}
+.navbar-collapse .menu li {
+  display: block;
+  float: none;
+}
+.navbar-collapse .menu li a {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #666666;
+  padding-left: 55px;
+  transition: all 0.3s linear;
+}
+.navbar-collapse .menu li a:hover, .navbar-collapse .menu li a:focus {
+  background: none;
+  color: #E91E63;
+}
+.navbar-collapse .menu li.nav-lang {
+  margin-top: 66px;
+  padding-left: 40px;
+  padding-bottom: 40px;
+}
+.navbar-collapse .menu li.nav-lang a {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 400;
+  padding-left: 15px;
+  color: #999999;
+  transition: all 0.3s linear;
+}
+.navbar-collapse .menu li.nav-lang a:hover {
+  background: none;
+  color: #E91E63;
+}
+.navbar-collapse .menu li.nav-lang a + a {
+  margin-left: 15px;
+}
+.navbar-collapse .menu li.nav-lang a.active {
+  color: #777777;
+  transition: all 0.3s linear;
+}
+.navbar-collapse .menu li.nav-lang a.active:hover {
+  background: none;
+  color: #E91E63;
+}
+.navbar-collapse .menu li.active a {
+  background: transparent;
+  box-shadow: none;
+}
+.navbar-collapse .menu li.active a:hover, .navbar-collapse .menu li.active a:focus {
+  background: transparent;
+  color: #E91E63;
+}
+.navbar-collapse.in {
+  transform: none;
+  box-shadow: 0px 0px 10px 0px rgba(5, 5, 5, 0.1);
+}
+
+.header-dark .navbar-collapse .menu {
+  background: rgba(0, 0, 0, 0.9);
+}
+.header-dark .navbar-collapse .menu li a {
+  color: #999;
+}
+.header-dark .navbar-collapse .menu li a:hover {
+  color: #E91E63;
+}
+
+/*============ End header area css ===============*/
+/*=============Start header-blue css ============*/
+.header-full .burger-icon .icon-bar {
+  background: #999;
+}
+
+.header-social {
+  margin: 0px;
+}
+.header-social li a {
+  font-size: 20px;
+  color: #c3c1c1;
+  text-shadow: none;
+  padding: 0px 0px 0px 20px;
+  line-height: 80px;
+}
+.header-social li a:hover, .header-social li a:focus {
+  background: none;
+  color: #E91E63;
+}
+
+/*=========== header3 area css ===========*/
+.header3 {
+  padding: 0px 45px;
+  transition: all 300ms linear;
+  border: none !important;
+}
+.header3 .social-icon {
+  float: left;
+}
+.header3 .social-icon ul li {
+  display: inline-block;
+}
+.header3 .social-icon ul li a {
+  font-size: 18px;
+  color: #fff;
+  line-height: 80px;
+  display: inline-block;
+  transition: all 0.20s linear;
+}
+.header3 .social-icon ul li + li {
+  padding-left: 16px;
+}
+
+.burger-icon {
+  float: right;
+  text-align: right;
+  width: 35px;
+  height: 80px;
+  cursor: pointer;
+  padding-top: 18px;
+  transition: all 0.20s linear;
+}
+.burger-icon .icon-bar {
+  width: 35px;
+  height: 2px;
+  background: #fff;
+  display: block;
+  margin-top: 8px;
+  float: right;
+  right: 0;
+  transition: all 300ms linear;
+}
+
+.canvas-menu {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 99999;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: all 0.5s linear;
+  opacity: 0;
+  visibility: hidden;
+  padding: 50px;
+}
+.canvas-menu.mySideBar {
+  opacity: 1;
+  visibility: visible;
+}
+.canvas-menu.mySideBar .menu li {
+  opacity: 1;
+  animation: fadeInLeft 0.4s cubic-bezier(0.175, 0.885, 0.32, 1) both;
+}
+.canvas-menu .menu {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  width: 100%;
+  left: 0;
+}
+.canvas-menu .menu li {
+  display: block;
+  opacity: 0;
+}
+.canvas-menu .menu li a {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #999;
+  padding-left: 55px;
+  transition: all 0.3s linear;
+  padding: 6px 15px;
+  display: inline-block;
+}
+.canvas-menu .menu li a:hover, .canvas-menu .menu li a:focus {
+  background: none;
+  color: #E91E63;
+}
+.canvas-menu .menu li .current {
+  color: #E91E63;
+}
+.canvas-menu .header-inner .nav-logo {
+  display: inline-block;
+}
+.canvas-menu .header-inner .close {
+  color: #666;
+  opacity: 1;
+  text-shadow: 0 1px 0 #666;
+}
+
+/*============ main_header area css ===========*/
+.main_header {
+  position: fixed;
+  width: 80px;
+  height: 100%;
+  background: #383838;
+  z-index: 20;
+  top: 0;
+  left: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+}
+.main_header .nav-button {
+  width: 32px;
+  height: 32px;
+  margin-top: 30px;
+  position: relative;
+  z-index: 10;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main_header .nav-button .menu-global {
+  backface-visibility: hidden;
+  position: absolute;
+  left: 0;
+  border-top: 2px solid #999999;
+  width: 100%;
+  transition: 0.55s;
+}
+.main_header .nav-button .menu-global.menu-top {
+  top: 0;
+}
+.main_header .nav-button .menu-global.menu-middle {
+  top: 10px;
+}
+.main_header .nav-button .menu-global.menu-bottom {
+  top: 20px;
+}
+.main_header .nav-button.actives .menu-top {
+  backface-visibility: hidden;
+  top: 10px;
+  transform: rotate(45deg);
+  transition: 0.55s 0.2s;
+}
+.main_header .nav-button.actives .menu-middle {
+  opacity: 0;
+}
+.main_header .nav-button.actives .menu-bottom {
+  backface-visibility: hidden;
+  top: 10px;
+  transform: rotate(-405deg);
+  transition: 0.55s 0.2s;
+}
+.main_header .social_icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+.main_header .social_icon a {
+  font-size: 20px;
+  color: #aaaaaa;
+  float: left;
+  width: 100%;
+  line-height: 37px;
+}
+.main_header .social_icon a:hover {
+  color: #E91E63;
+}
+
+/*============ main_header area css ===========*/
+
+/*====================================================*/
+/*============ Start light color css ==============*/
+.wel-section .col-left, .wel-section .col-right {
+  justify-content: center;
+}
+@media (min-width: 992px) {
+  .wel-section .col-left, .wel-section .col-right {
+    height: 100vh;
+  }
+}
+
+.col-left, .col-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.col-left {
+  position: relative;
+  padding-top: 120px;
+}
+.col-left:before {
+  content: '';
+  display: block;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  right: 50%;
+  transform: translateX(50%);
+  height: 100%;
+  width: 2000px;
+  border-top: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
+  background-color: #fafbfb;
+}
+
+.bg-color .col-left:before {
+  background: #f6f7f7;
+}
+.bg-color .col-right {
+  position: relative;
+}
+.bg-color .col-right:before {
+  content: '';
+  display: block;
+  position: absolute;
+  z-index: -1;
+  left: 16px;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100vw;
+  background-color: #fdfdfd;
+}
+
+@media (min-width: 992px) {
+  .col-left::before {
+    right: -16px;
+    border: none;
+    transform: none;
+  }
+
+  .display-f {
+    display: flex;
+  }
+}
+.col-right {
+  padding-left: 98px;
+  position: relative;
+}
+
+/*============ End light color css ==============*/
+/*============ Start People say css =============*/
+.words img{
+  width: 100%;
+}
+/*============ End People say css =============*/
+/*========= Start wel-section css ============*/
+.wel-social {
+  margin-top: 40px;
+}
+.wel-social a {
+  color: #aaaaaa;
+  transition: color 0.25s ease;
+  font-size: 20px;
+  margin-left: 16px;
+}
+.wel-social a:hover {
+  color: #E91E63;
+}
+
+.wel-content {
+  font-family: "Poppins", sans-serif;
+}
+
+.hello-t {
+  font-size: 20px;
+  font-weight: 300;
+  color: #999;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  padding-left: 2px;
+}
+
+.name-t {
+  font-size: 70px;
+  line-height: 80px;
+  color: #E91E63;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.name-t span {
+  font-weight: 600;
+}
+
+.expart-n {
+  padding-top: 20px;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 34px;
+  color: #666666;
+  padding-left: 2px;
+}
+
+.header-contact-infos {
+  border-top: 1px solid #eeeeee;
+  position: absolute;
+  bottom: 0;
+  left: 65px;
+}
+
+.header-contact-info {
+  font: 400 15px "Open Sans", sans-serif;
+  color: #999;
+  text-decoration: none;
+  display: inline-block;
+  padding: 33px 0px;
+  transition: all 0.4s linear;
+}
+.header-contact-info i {
+  padding-right: 10px;
+}
+.header-contact-info:hover, .header-contact-info:focus {
+  color: #E91E63;
+}
+.header-contact-info + .header-contact-info {
+  padding-left: 60px;
+}
+
+/*========= End wel-section css ============*/
+/*============ Start about css =============*/
+.about-content {
+  padding-right: 25px;
+}
+.about-content p + p {
+  margin-top: 30px;
+}
+/*============ End about css =============*/
+
+/*============ Start skill css =============*/
+.progress-element {
+  padding-top: 13px;
+}
+.progress-element .skill-info {
+  display: block;
+}
+.progress-element .skill-info .skill-name {
+  display: inline-block;
+  font: 500 15px "Poppins", sans-serif;
+  color: #666666;
+  text-transform: uppercase;
+}
+.progress-element .skill-info .skill-val {
+  display: inline-block;
+  float: right;
+  font: 600 15px "Poppins", sans-serif;
+  color: #E91E63;
+}
+.progress-element .progress {
+  margin-top: 10px;
+  height: 5px;
+  background-color: #cfcfcf;
+  border-radius: 2px;
+  overflow: hidden;
+  margin-bottom: 38px;
+}
+.progress-element .progress .progress-bar {
+  display: block;
+  height: 100%;
+  border-radius: 2px;
+  background: #E91E63;
+  transition: width 0.9s ease;
+  box-shadow: none;
+}
+
+/*============ End skill css =============*/
+/*=============Start expertise css ================*/
+.expertise .sec-pad {
+  padding-bottom: 59px;
+}
+.expertise-media {
+  margin-top: 0px;
+  margin-bottom: 55px;
+}
+.expertise-media .media-left {
+  padding-right: 32px;
+}
+.expertise-media .media-left span {
+  font-size: 36px;
+  color: #E91E63;
+}
+.expertise-media .media-body {
+  padding-right: 35px;
+}
+.expertise-media .media-body p {
+  padding-top: 11px;
+}
+/*=========== End expertise css ===========*/
+/*=========== Start experiences css ===========*/
+.experience-date {
+  margin-top: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 28px;
+  font-size: 15px;
+  color: #777777;
+}
+.row-experience + .row-experience {
+  margin-top: 65px;
+}
+.row-experience:last-child .ex-content:before {
+  display: none;
+}
+.ex-content {
+  position: relative;
+}
+.ex-content:before {
+  content: '';
+  position: absolute;
+  top: 22px;
+  width: 2px;
+  background-color: #eeeeee;
+  height: calc(100% + 49px);
+  left: calc(-50px + 6px);
+}
+.ex-content:after {
+  content: '';
+  position: absolute;
+  top: 7px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: #E91E63;
+  left: -50px;
+}
+.ex-content .title {
+  font-size: 18px;
+}
+.ex-content h5 {
+  margin-bottom: 24px;
+  padding-top: 9px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 15px;
+  color: #777777;
+}
+/*=========== End experiences css ===========*/
+
+/*=====Start skill-two-area css =========*/
+.bt-skill-item {
+  margin-top: 40px;
+}
+.bt-skill {
+  margin-top: 5px;
+}
+.bt-skill .bt-skillholder {
+  background: #cfcfcf;
+  display: block;
+  height: 5px;
+  width: 100%;
+  border-radius: 5px;
+}
+.bt-skill .bt-skillholder .bt-skillbar {
+  height: 5px;
+  float: left;
+  background: #E91E63;
+  border-radius: 5px;
+}
+/*=====End skill-two-area css =========*/
+
+/*====================================================*/
+
+/*------------Start awards css --------------*/
+.awards {
+  padding-top: 43px;
+  padding-bottom: 117px;
+}
+.award-item {
+  padding-right: 61px;
+  margin-top: 77px;
+}
+.award-item img {
+  margin-bottom: 30px;
+}
+.award-item h5 {
+  font: 600 15px "Open Sans", sans-serif;
+  color: #777777;
+  padding: 8px 0px 26px;
+}
+.award-item p {
+  line-height: 28px;
+}
+/*------------End awards css --------------*/
+
+.gallery-item {
+  margin-top: 40px;
+}
+.gallery-item a {
+  display: block;
+  position: relative;
+  z-index: 1;
+}
+.gallery-item a:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(241, 178, 0, 0.7);
+  opacity: 0;
+  position: absolute;
+  z-index: 0;
+  transform: opacity .2s ease-in-out;
+}
+.gallery-item a:after {
+  content: "\e61a";
+  font-family: 'themify';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -19px 0 0 -19px;
+  speak: none;
+  color: #fff;
+  font-size: 38px;
+  line-height: 1;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  -webkit-font-smoothing: antialiased;
+  z-index: 2;
+  opacity: 0;
+  transform: scale(0.2, 0.2) translate3d(0, 30%, 0);
+  transition: all 0.3s cubic-bezier(0.53, 0.01, 0.18, 1);
+}
+.gallery-item a img {
+  max-width: 100%;
+  width: 100%;
+}
+.gallery-item .text {
+  background: #fff;
+  text-align: center;
+  padding: 33px 0px;
+}
+.gallery-item .text h2 {
+  font: 400 16px "Poppins", sans-serif;
+  color: #444444;
+  text-transform: uppercase;
+}
+.gallery-item .text p {
+  color: #999999;
+}
+.gallery-item:hover a:before, .gallery-item:hover a:after {
+  -webkit-transform: none;
+  -moz-transform: none;
+  transform: none;
+  opacity: 1;
+}
+
+/*====================================================*/
+
+/*============= Start contact area css ============*/
+.contact-form {
+  position: relative;
+  z-index: 1;
+}
+.contact-form .form-group {
+  margin-bottom: 22px;
+}
+.contact-form .form-group label {
+  margin-bottom: 14px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 15px;
+  line-height: 20px;
+  color: #555555;
+}
+.contact-form .form-group .form-control {
+  border: 1px solid #e0e0e0;
+  border-radius: 3px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  transition: all 0.25s ease;
+  padding: 6px 25px;
+  height: 60px;
+  color: #555;
+  box-shadow: none;
+}
+.contact-form .form-group .form-control.placeholder {
+  color: #999;
+}
+.contact-form .form-group .form-control:-moz-placeholder {
+  color: #999;
+}
+.contact-form .form-group .form-control::-moz-placeholder {
+  color: #999;
+}
+.contact-form .form-group .form-control::-webkit-input-placeholder {
+  color: #999;
+}
+.contact-form .form-group .form-control:focus {
+  border-color: #E91E63;
+}
+.contact-form .form-group textarea.form-control {
+  height: 200px;
+  padding-top: 16px;
+}
+.contact-form button {
+  margin-top: 29px;
+  background: none;
+  border: 1px solid #e0e0e0;
+  border-radius: 2px;
+  padding: 0px 63px;
+  height: 60px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #999;
+  transition: all 0.4s linear;
+}
+.contact-form button:hover, .contact-form button:focus {
+  border-color: #E91E63;
+  color: #E91E63;
+}
+
+.contact-submit-progress {
+  font-size: 18px;
+  color: #E91E63;
+  padding: 0px 20px;
+}
+.contact-submit-message {
+  font: 500 15px/24px "Open Sans", sans-serif;
+  color: #999;
+  max-width: 320px;
+  position: absolute;
+  bottom: 8px;
+  right: 100px;
+}
+.contact-infos {
+  border-top: 1px solid #eeeeee;
+  margin-top: 80px;
+}
+.contact-infos .header-contact-info {
+  padding-bottom: 0px;
+}
+/*============= End contact area css ============*/
+
+.validation-error {
+  border-color: red !important;
+}
+.validation-valid {
+  border-color: #E91E63 !important;
+}
+/*====================================================*/
+
+/*====================================================*/
+.col-avatar {
+  width: calc(50% - 135px);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  float: left;
+}
+.col-avatar .prot-image {
+  height: 100%;
+}
+.col-avatar .prot-image .avatar {
+  height: 100%;
+}
+
+.sc-wel-section .frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100%;
+  position: relative;
+}
+
+.wrapper {
+  width: calc(50% + 135px);
+  float: right;
+}
+.wrapper .frame {
+  max-width: 880px;
+  padding: 90px 0px 90px 80px;
+}
+
+#fp-nav.right {
+  right: 33px;
+}
+#fp-nav ul li {
+  width: 100%;
+  height: 100%;
+  margin: 10px 7px;
+}
+#fp-nav ul li a {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #bdbdbd;
+  border-radius: 50%;
+}
+#fp-nav ul li a span {
+  background: transparent;
+  width: 8px;
+  height: 8px;
+  margin: -4px 0px 0px -4px;
+}
+#fp-nav ul li a:hover {
+  border-color: #E91E63;
+}
+#fp-nav ul li a:hover span {
+  background: #E91E63;
+  width: 8px;
+  height: 8px;
+  margin: -4px 0px 0px -4px;
+}
+#fp-nav ul li a.active {
+  border-color: #E91E63;
+}
+#fp-nav ul li a.active span {
+  background: #E91E63;
+  width: 8px;
+  height: 8px;
+  margin: -4px 0px 0px -4px;
+}
+#fp-nav ul li a.active:hover {
+  border-color: #E91E63;
+}
+#fp-nav ul li a.active:hover span {
+  background: #E91E63;
+  width: 8px;
+  height: 8px;
+  margin: -4px 0px 0px -4px;
+}
+
+/*============Start sc-about css =============*/
+.sc-about .sec-title2, .sc-skills .sec-title2 {
+  padding-bottom: 36px;
+}
+
+/*============Start sc-awards css =============*/
+.sc-awards .sec-title2 {
+  padding-bottom: 0px;
+}
+.sc-awards .award-item {
+  margin-top: 47px;
+}
+
+/*============Start sc-profile css =============*/
+.sc-profile .sec-title2 {
+  padding-bottom: 0px;
+}
+.sc-profile .col-profile {
+  margin-top: 50px;
+  padding-bottom: 22px;
+}
+
+/*============Start sc-portfolio css =============*/
+.sc-portfolio .sec-title2 {
+  padding-bottom: 40px;
+}
+.sc-portfolio .portfolio-filter {
+  padding-bottom: 24px;
+}
+
+/*============Start sc-blog css =============*/
+.sc-blog .blog-item .text {
+  background: #fafafa;
+}
+
+/*============Start sc-contact css =============*/
+.sc-contact .sec-title2 {
+  padding-bottom: 41px;
+}
+.sc-contact .contact-infos {
+  margin-top: 0px;
+  border: 0px;
+  margin-bottom: 35px;
+}
+.sc-contact .contact-infos .header-contact-info {
+  padding-top: 0px;
+}
+/*====================================================*/
+
+/*------------ Start footer css -------------*/
+.footer-area .col-left {
+  padding-top: 0px;
+}
+.footer-area .sec-title {
+  padding-top: 0px;
+}
+.footer-area .sec-title h6 {
+  font-size: 14px;
+  line-height: 83px;
+  font-style: normal;
+}
+.f-right {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+/*------------ End footer css -------------*/

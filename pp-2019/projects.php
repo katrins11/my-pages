@@ -27,5 +27,6 @@
         <?php include('php/front-contact.php')?>
 
         <script src="./js/intro.js"></script>
+        <script src="./js/intersection-observer.js"></script>
     </body>
 </html>
